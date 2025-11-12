@@ -4573,7 +4573,7 @@ ManifestResources.init = function(config) {
 	openfl_text_Font.registerFont(_$_$ASSET_$_$OPENFL_$_$flixel_$fonts_$nokiafc22_$ttf);
 	openfl_text_Font.registerFont(_$_$ASSET_$_$OPENFL_$_$flixel_$fonts_$monsterrat_$ttf);
 	var bundle;
-	var data = "{\"name\":null,\"assets\":\"aoy4:pathy36:assets%2Fmusic%2Fmusic-goes-here.txty4:sizezy4:typey4:TEXTy2:idR1y7:preloadtgoR0y33:assets%2Fimages%2FblankLineup.pngR2i788477R3y5:IMAGER5R7R6tgoR0y31:assets%2Fimages%2Fmousehand.pngR2i412R3R8R5R9R6tgoR0y33:assets%2Fimages%2FshiftLineup.pngR2i184471R3R8R5R10R6tgoR0y36:assets%2Fimages%2Fimages-go-here.txtR2zR3R4R5R11R6tgoR0y36:assets%2Fsounds%2Fsounds-go-here.txtR2zR3R4R5R12R6tgoR2i96572R3y4:FONTy9:classNamey41:__ASSET__assets_fonts_elmssans_medium_ttfR5y36:assets%2Ffonts%2FElmsSans-Medium.ttfR6tgoR2i75864R3R13R14y29:__ASSET__assets_fonts_vcr_ttfR5y24:assets%2Ffonts%2Fvcr.ttfR6tgoR2i96600R3R13R14y44:__ASSET__assets_fonts_elmssans_extrabold_ttfR5y39:assets%2Ffonts%2FElmsSans-ExtraBold.ttfR6tgoR2i200292R3R13R14y69:__ASSET__assets_fonts_elms_sans_elmssans_italic_variablefont_wght_ttfR5y66:assets%2Ffonts%2FElms_Sans%2FElmsSans-Italic-VariableFont_wght.ttfR6tgoR2i96572R3R13R14y58:__ASSET__assets_fonts_elms_sans_static_elmssans_medium_ttfR5y57:assets%2Ffonts%2FElms_Sans%2Fstatic%2FElmsSans-Medium.ttfR6tgoR2i99828R3R13R14y66:__ASSET__assets_fonts_elms_sans_static_elmssans_semibolditalic_ttfR5y65:assets%2Ffonts%2FElms_Sans%2Fstatic%2FElmsSans-SemiBoldItalic.ttfR6tgoR2i96364R3R13R14y57:__ASSET__assets_fonts_elms_sans_static_elmssans_black_ttfR5y56:assets%2Ffonts%2FElms_Sans%2Fstatic%2FElmsSans-Black.ttfR6tgoR2i99868R3R13R14y68:__ASSET__assets_fonts_elms_sans_static_elmssans_extralightitalic_ttfR5y67:assets%2Ffonts%2FElms_Sans%2Fstatic%2FElmsSans-ExtraLightItalic.ttfR6tgoR2i96656R3R13R14y60:__ASSET__assets_fonts_elms_sans_static_elmssans_semibold_ttfR5y59:assets%2Ffonts%2FElms_Sans%2Fstatic%2FElmsSans-SemiBold.ttfR6tgoR2i99792R3R13R14y63:__ASSET__assets_fonts_elms_sans_static_elmssans_lightitalic_ttfR5y62:assets%2Ffonts%2FElms_Sans%2Fstatic%2FElmsSans-LightItalic.ttfR6tgoR2i96724R3R13R14y62:__ASSET__assets_fonts_elms_sans_static_elmssans_extralight_ttfR5y61:assets%2Ffonts%2FElms_Sans%2Fstatic%2FElmsSans-ExtraLight.ttfR6tgoR2i99684R3R13R14y62:__ASSET__assets_fonts_elms_sans_static_elmssans_thinitalic_ttfR5y61:assets%2Ffonts%2FElms_Sans%2Fstatic%2FElmsSans-ThinItalic.ttfR6tgoR2i99696R3R13R14y62:__ASSET__assets_fonts_elms_sans_static_elmssans_bolditalic_ttfR5y61:assets%2Ffonts%2FElms_Sans%2Fstatic%2FElmsSans-BoldItalic.ttfR6tgoR2i96704R3R13R14y57:__ASSET__assets_fonts_elms_sans_static_elmssans_light_ttfR5y56:assets%2Ffonts%2FElms_Sans%2Fstatic%2FElmsSans-Light.ttfR6tgoR2i96636R3R13R14y56:__ASSET__assets_fonts_elms_sans_static_elmssans_thin_ttfR5y55:assets%2Ffonts%2FElms_Sans%2Fstatic%2FElmsSans-Thin.ttfR6tgoR2i99652R3R13R14y64:__ASSET__assets_fonts_elms_sans_static_elmssans_mediumitalic_ttfR5y63:assets%2Ffonts%2FElms_Sans%2Fstatic%2FElmsSans-MediumItalic.ttfR6tgoR2i96600R3R13R14y61:__ASSET__assets_fonts_elms_sans_static_elmssans_extrabold_ttfR5y60:assets%2Ffonts%2FElms_Sans%2Fstatic%2FElmsSans-ExtraBold.ttfR6tgoR2i99652R3R13R14y67:__ASSET__assets_fonts_elms_sans_static_elmssans_extrabolditalic_ttfR5y66:assets%2Ffonts%2FElms_Sans%2Fstatic%2FElmsSans-ExtraBoldItalic.ttfR6tgoR2i99812R3R13R14y58:__ASSET__assets_fonts_elms_sans_static_elmssans_italic_ttfR5y57:assets%2Ffonts%2FElms_Sans%2Fstatic%2FElmsSans-Italic.ttfR6tgoR2i99336R3R13R14y63:__ASSET__assets_fonts_elms_sans_static_elmssans_blackitalic_ttfR5y62:assets%2Ffonts%2FElms_Sans%2Fstatic%2FElmsSans-BlackItalic.ttfR6tgoR2i96832R3R13R14y59:__ASSET__assets_fonts_elms_sans_static_elmssans_regular_ttfR5y58:assets%2Ffonts%2FElms_Sans%2Fstatic%2FElmsSans-Regular.ttfR6tgoR0y36:assets%2Ffonts%2FElms_Sans%2FOFL.txtR2i4392R3R4R5R57R6tgoR2i188136R3R13R14y62:__ASSET__assets_fonts_elms_sans_elmssans_variablefont_wght_ttfR5y59:assets%2Ffonts%2FElms_Sans%2FElmsSans-VariableFont_wght.ttfR6tgoR0y39:assets%2Ffonts%2FElms_Sans%2FREADME.txtR2i2640R3R4R5R60R6tgoR2i96644R3R13R14y39:__ASSET__assets_fonts_elmssans_bold_ttfR5y34:assets%2Ffonts%2FElmsSans-Bold.ttfR6tgoR0y34:assets%2Fdata%2Fdata-goes-here.txtR2zR3R4R5R63R6tgoR2i96572R3R13R14y42:__ASSET__assets_fonts_elmssans_medium_ttf1R5R16R6tgoR2i75864R3R13R14y30:__ASSET__assets_fonts_vcr_ttf1R5R18R6tgoR2i96600R3R13R14y45:__ASSET__assets_fonts_elmssans_extrabold_ttf1R5R20R6tgoR2i200292R3R13R14y70:__ASSET__assets_fonts_elms_sans_elmssans_italic_variablefont_wght_ttf1R5R22R6tgoR2i96572R3R13R14y59:__ASSET__assets_fonts_elms_sans_static_elmssans_medium_ttf1R5R24R6tgoR2i99828R3R13R14y67:__ASSET__assets_fonts_elms_sans_static_elmssans_semibolditalic_ttf1R5R26R6tgoR2i96364R3R13R14y58:__ASSET__assets_fonts_elms_sans_static_elmssans_black_ttf1R5R28R6tgoR2i99868R3R13R14y69:__ASSET__assets_fonts_elms_sans_static_elmssans_extralightitalic_ttf1R5R30R6tgoR2i96656R3R13R14y61:__ASSET__assets_fonts_elms_sans_static_elmssans_semibold_ttf1R5R32R6tgoR2i99792R3R13R14y64:__ASSET__assets_fonts_elms_sans_static_elmssans_lightitalic_ttf1R5R34R6tgoR2i96724R3R13R14y63:__ASSET__assets_fonts_elms_sans_static_elmssans_extralight_ttf1R5R36R6tgoR2i99684R3R13R14y63:__ASSET__assets_fonts_elms_sans_static_elmssans_thinitalic_ttf1R5R38R6tgoR2i99696R3R13R14y63:__ASSET__assets_fonts_elms_sans_static_elmssans_bolditalic_ttf1R5R40R6tgoR2i96704R3R13R14y58:__ASSET__assets_fonts_elms_sans_static_elmssans_light_ttf1R5R42R6tgoR2i96636R3R13R14y57:__ASSET__assets_fonts_elms_sans_static_elmssans_thin_ttf1R5R44R6tgoR2i99652R3R13R14y65:__ASSET__assets_fonts_elms_sans_static_elmssans_mediumitalic_ttf1R5R46R6tgoR2i96600R3R13R14y62:__ASSET__assets_fonts_elms_sans_static_elmssans_extrabold_ttf1R5R48R6tgoR2i99652R3R13R14y68:__ASSET__assets_fonts_elms_sans_static_elmssans_extrabolditalic_ttf1R5R50R6tgoR2i99812R3R13R14y59:__ASSET__assets_fonts_elms_sans_static_elmssans_italic_ttf1R5R52R6tgoR2i99336R3R13R14y64:__ASSET__assets_fonts_elms_sans_static_elmssans_blackitalic_ttf1R5R54R6tgoR2i96832R3R13R14y60:__ASSET__assets_fonts_elms_sans_static_elmssans_regular_ttf1R5R56R6tgoR0R57R2i4392R3R4R5R57R6tgoR2i188136R3R13R14y63:__ASSET__assets_fonts_elms_sans_elmssans_variablefont_wght_ttf1R5R59R6tgoR0R60R2i2640R3R4R5R60R6tgoR2i96644R3R13R14y40:__ASSET__assets_fonts_elmssans_bold_ttf1R5R62R6tgoR2i39706R3y5:MUSICR5y28:flixel%2Fsounds%2Fflixel.mp3y9:pathGroupaR88y28:flixel%2Fsounds%2Fflixel.ogghR6tgoR2i8220R3R87R5y26:flixel%2Fsounds%2Fbeep.mp3R89aR91y26:flixel%2Fsounds%2Fbeep.ogghR6tgoR2i6840R3y5:SOUNDR5R92R89aR91R92hgoR2i33629R3R93R5R90R89aR88R90hgoR2i15744R3R13R14y35:__ASSET__flixel_fonts_nokiafc22_ttfR5y30:flixel%2Ffonts%2Fnokiafc22.ttfR6tgoR2i29724R3R13R14y36:__ASSET__flixel_fonts_monsterrat_ttfR5y31:flixel%2Ffonts%2Fmonsterrat.ttfR6tgoR0y33:flixel%2Fimages%2Fui%2Fbutton.pngR2i222R3R8R5R98R6tgoR0y36:flixel%2Fimages%2Flogo%2Fdefault.pngR2i484R3R8R5R99R6tgh\",\"rootPath\":null,\"version\":2,\"libraryArgs\":[],\"libraryType\":null}";
+	var data = "{\"name\":null,\"assets\":\"aoy4:pathy36:assets%2Fmusic%2Fmusic-goes-here.txty4:sizezy4:typey4:TEXTy2:idR1y7:preloadtgoR0y36:assets%2Fimages%2FlineupBIGSpace.pngR2i346980R3y5:IMAGER5R7R6tgoR0y33:assets%2Fimages%2FblankLineup.pngR2i788477R3R8R5R9R6tgoR0y31:assets%2Fimages%2Fmousehand.pngR2i412R3R8R5R10R6tgoR0y33:assets%2Fimages%2FshiftLineup.pngR2i184471R3R8R5R11R6tgoR0y36:assets%2Fimages%2Fimages-go-here.txtR2zR3R4R5R12R6tgoR0y36:assets%2Fsounds%2Fsounds-go-here.txtR2zR3R4R5R13R6tgoR2i96572R3y4:FONTy9:classNamey41:__ASSET__assets_fonts_elmssans_medium_ttfR5y36:assets%2Ffonts%2FElmsSans-Medium.ttfR6tgoR2i75864R3R14R15y29:__ASSET__assets_fonts_vcr_ttfR5y24:assets%2Ffonts%2Fvcr.ttfR6tgoR2i96600R3R14R15y44:__ASSET__assets_fonts_elmssans_extrabold_ttfR5y39:assets%2Ffonts%2FElmsSans-ExtraBold.ttfR6tgoR2i200292R3R14R15y69:__ASSET__assets_fonts_elms_sans_elmssans_italic_variablefont_wght_ttfR5y66:assets%2Ffonts%2FElms_Sans%2FElmsSans-Italic-VariableFont_wght.ttfR6tgoR2i96572R3R14R15y58:__ASSET__assets_fonts_elms_sans_static_elmssans_medium_ttfR5y57:assets%2Ffonts%2FElms_Sans%2Fstatic%2FElmsSans-Medium.ttfR6tgoR2i99828R3R14R15y66:__ASSET__assets_fonts_elms_sans_static_elmssans_semibolditalic_ttfR5y65:assets%2Ffonts%2FElms_Sans%2Fstatic%2FElmsSans-SemiBoldItalic.ttfR6tgoR2i96364R3R14R15y57:__ASSET__assets_fonts_elms_sans_static_elmssans_black_ttfR5y56:assets%2Ffonts%2FElms_Sans%2Fstatic%2FElmsSans-Black.ttfR6tgoR2i99868R3R14R15y68:__ASSET__assets_fonts_elms_sans_static_elmssans_extralightitalic_ttfR5y67:assets%2Ffonts%2FElms_Sans%2Fstatic%2FElmsSans-ExtraLightItalic.ttfR6tgoR2i96656R3R14R15y60:__ASSET__assets_fonts_elms_sans_static_elmssans_semibold_ttfR5y59:assets%2Ffonts%2FElms_Sans%2Fstatic%2FElmsSans-SemiBold.ttfR6tgoR2i99792R3R14R15y63:__ASSET__assets_fonts_elms_sans_static_elmssans_lightitalic_ttfR5y62:assets%2Ffonts%2FElms_Sans%2Fstatic%2FElmsSans-LightItalic.ttfR6tgoR2i96724R3R14R15y62:__ASSET__assets_fonts_elms_sans_static_elmssans_extralight_ttfR5y61:assets%2Ffonts%2FElms_Sans%2Fstatic%2FElmsSans-ExtraLight.ttfR6tgoR2i99684R3R14R15y62:__ASSET__assets_fonts_elms_sans_static_elmssans_thinitalic_ttfR5y61:assets%2Ffonts%2FElms_Sans%2Fstatic%2FElmsSans-ThinItalic.ttfR6tgoR2i99696R3R14R15y62:__ASSET__assets_fonts_elms_sans_static_elmssans_bolditalic_ttfR5y61:assets%2Ffonts%2FElms_Sans%2Fstatic%2FElmsSans-BoldItalic.ttfR6tgoR2i96704R3R14R15y57:__ASSET__assets_fonts_elms_sans_static_elmssans_light_ttfR5y56:assets%2Ffonts%2FElms_Sans%2Fstatic%2FElmsSans-Light.ttfR6tgoR2i96636R3R14R15y56:__ASSET__assets_fonts_elms_sans_static_elmssans_thin_ttfR5y55:assets%2Ffonts%2FElms_Sans%2Fstatic%2FElmsSans-Thin.ttfR6tgoR2i99652R3R14R15y64:__ASSET__assets_fonts_elms_sans_static_elmssans_mediumitalic_ttfR5y63:assets%2Ffonts%2FElms_Sans%2Fstatic%2FElmsSans-MediumItalic.ttfR6tgoR2i96600R3R14R15y61:__ASSET__assets_fonts_elms_sans_static_elmssans_extrabold_ttfR5y60:assets%2Ffonts%2FElms_Sans%2Fstatic%2FElmsSans-ExtraBold.ttfR6tgoR2i99652R3R14R15y67:__ASSET__assets_fonts_elms_sans_static_elmssans_extrabolditalic_ttfR5y66:assets%2Ffonts%2FElms_Sans%2Fstatic%2FElmsSans-ExtraBoldItalic.ttfR6tgoR2i99812R3R14R15y58:__ASSET__assets_fonts_elms_sans_static_elmssans_italic_ttfR5y57:assets%2Ffonts%2FElms_Sans%2Fstatic%2FElmsSans-Italic.ttfR6tgoR2i99336R3R14R15y63:__ASSET__assets_fonts_elms_sans_static_elmssans_blackitalic_ttfR5y62:assets%2Ffonts%2FElms_Sans%2Fstatic%2FElmsSans-BlackItalic.ttfR6tgoR2i96832R3R14R15y59:__ASSET__assets_fonts_elms_sans_static_elmssans_regular_ttfR5y58:assets%2Ffonts%2FElms_Sans%2Fstatic%2FElmsSans-Regular.ttfR6tgoR0y36:assets%2Ffonts%2FElms_Sans%2FOFL.txtR2i4392R3R4R5R58R6tgoR2i188136R3R14R15y62:__ASSET__assets_fonts_elms_sans_elmssans_variablefont_wght_ttfR5y59:assets%2Ffonts%2FElms_Sans%2FElmsSans-VariableFont_wght.ttfR6tgoR0y39:assets%2Ffonts%2FElms_Sans%2FREADME.txtR2i2640R3R4R5R61R6tgoR2i96644R3R14R15y39:__ASSET__assets_fonts_elmssans_bold_ttfR5y34:assets%2Ffonts%2FElmsSans-Bold.ttfR6tgoR0y34:assets%2Fdata%2Fdata-goes-here.txtR2zR3R4R5R64R6tgoR2i96572R3R14R15y42:__ASSET__assets_fonts_elmssans_medium_ttf1R5R17R6tgoR2i75864R3R14R15y30:__ASSET__assets_fonts_vcr_ttf1R5R19R6tgoR2i96600R3R14R15y45:__ASSET__assets_fonts_elmssans_extrabold_ttf1R5R21R6tgoR2i200292R3R14R15y70:__ASSET__assets_fonts_elms_sans_elmssans_italic_variablefont_wght_ttf1R5R23R6tgoR2i96572R3R14R15y59:__ASSET__assets_fonts_elms_sans_static_elmssans_medium_ttf1R5R25R6tgoR2i99828R3R14R15y67:__ASSET__assets_fonts_elms_sans_static_elmssans_semibolditalic_ttf1R5R27R6tgoR2i96364R3R14R15y58:__ASSET__assets_fonts_elms_sans_static_elmssans_black_ttf1R5R29R6tgoR2i99868R3R14R15y69:__ASSET__assets_fonts_elms_sans_static_elmssans_extralightitalic_ttf1R5R31R6tgoR2i96656R3R14R15y61:__ASSET__assets_fonts_elms_sans_static_elmssans_semibold_ttf1R5R33R6tgoR2i99792R3R14R15y64:__ASSET__assets_fonts_elms_sans_static_elmssans_lightitalic_ttf1R5R35R6tgoR2i96724R3R14R15y63:__ASSET__assets_fonts_elms_sans_static_elmssans_extralight_ttf1R5R37R6tgoR2i99684R3R14R15y63:__ASSET__assets_fonts_elms_sans_static_elmssans_thinitalic_ttf1R5R39R6tgoR2i99696R3R14R15y63:__ASSET__assets_fonts_elms_sans_static_elmssans_bolditalic_ttf1R5R41R6tgoR2i96704R3R14R15y58:__ASSET__assets_fonts_elms_sans_static_elmssans_light_ttf1R5R43R6tgoR2i96636R3R14R15y57:__ASSET__assets_fonts_elms_sans_static_elmssans_thin_ttf1R5R45R6tgoR2i99652R3R14R15y65:__ASSET__assets_fonts_elms_sans_static_elmssans_mediumitalic_ttf1R5R47R6tgoR2i96600R3R14R15y62:__ASSET__assets_fonts_elms_sans_static_elmssans_extrabold_ttf1R5R49R6tgoR2i99652R3R14R15y68:__ASSET__assets_fonts_elms_sans_static_elmssans_extrabolditalic_ttf1R5R51R6tgoR2i99812R3R14R15y59:__ASSET__assets_fonts_elms_sans_static_elmssans_italic_ttf1R5R53R6tgoR2i99336R3R14R15y64:__ASSET__assets_fonts_elms_sans_static_elmssans_blackitalic_ttf1R5R55R6tgoR2i96832R3R14R15y60:__ASSET__assets_fonts_elms_sans_static_elmssans_regular_ttf1R5R57R6tgoR0R58R2i4392R3R4R5R58R6tgoR2i188136R3R14R15y63:__ASSET__assets_fonts_elms_sans_elmssans_variablefont_wght_ttf1R5R60R6tgoR0R61R2i2640R3R4R5R61R6tgoR2i96644R3R14R15y40:__ASSET__assets_fonts_elmssans_bold_ttf1R5R63R6tgoR2i39706R3y5:MUSICR5y28:flixel%2Fsounds%2Fflixel.mp3y9:pathGroupaR89y28:flixel%2Fsounds%2Fflixel.ogghR6tgoR2i8220R3R88R5y26:flixel%2Fsounds%2Fbeep.mp3R90aR92y26:flixel%2Fsounds%2Fbeep.ogghR6tgoR2i6840R3y5:SOUNDR5R93R90aR92R93hgoR2i33629R3R94R5R91R90aR89R91hgoR2i15744R3R14R15y35:__ASSET__flixel_fonts_nokiafc22_ttfR5y30:flixel%2Ffonts%2Fnokiafc22.ttfR6tgoR2i29724R3R14R15y36:__ASSET__flixel_fonts_monsterrat_ttfR5y31:flixel%2Ffonts%2Fmonsterrat.ttfR6tgoR0y33:flixel%2Fimages%2Fui%2Fbutton.pngR2i222R3R8R5R99R6tgoR0y36:flixel%2Fimages%2Flogo%2Fdefault.pngR2i484R3R8R5R100R6tgh\",\"rootPath\":null,\"version\":2,\"libraryArgs\":[],\"libraryType\":null}";
 	var manifest = lime_utils_AssetManifest.parse(data,ManifestResources.rootPath);
 	var library = lime_utils_AssetLibrary.fromManifest(manifest);
 	lime_utils_Assets.registerLibrary("default",library);
@@ -6152,10 +6152,16 @@ var PlayState = function(csv) {
 	_g.h["Jade B"] = "Krow";
 	_g.h["Kennedy O"] = "Kenny";
 	_g.h["LaDevan S"] = "Devan";
+	_g.h["Addison B"] = "Addy";
 	this.nameFilter = _g;
+	this.daysCopy = [];
+	this.days = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+	this.traineeKeywords = ["Trainee"];
 	this.serveKeywords = ["Server"];
-	this.prodKeywords = ["Production"];
+	this.prodKeywords = ["Production","Dish"];
 	this.managerKeywords = ["Manager","Administration","MIC"];
+	this.openPrepKeywords = ["Open/Prep"];
+	this.ignore = ["Meeting"];
 	this.shifts = new haxe_ds_StringMap();
 	this.people = new haxe_ds_StringMap();
 	flixel_FlxState.call(this);
@@ -6163,15 +6169,6 @@ var PlayState = function(csv) {
 };
 $hxClasses["PlayState"] = PlayState;
 PlayState.__name__ = "PlayState";
-PlayState.saveImage = function(bitmapData,day,date,onSave) {
-	var b = new openfl_utils_ByteArrayData(0);
-	b = bitmapData.encode(bitmapData.rect,new openfl_display_PNGEncoderOptions(true),b);
-	var dialog = new lime_ui_FileDialog();
-	dialog.onSave.add(function(str) {
-		onSave(str);
-	});
-	dialog.save(b,"png","" + day + "-" + date.split("/")[0] + "-" + date.split("/")[1],"Choose where to save the lineup");
-};
 PlayState.__super__ = flixel_FlxState;
 PlayState.prototype = $extend(flixel_FlxState.prototype,{
 	create: function() {
@@ -6188,10 +6185,10 @@ PlayState.prototype = $extend(flixel_FlxState.prototype,{
 		dates.shift();
 		dates.shift();
 		dates.shift();
-		var days = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
 		var _g = 0;
-		while(_g < days.length) {
-			var day = days[_g];
+		var _g1 = this.days;
+		while(_g < _g1.length) {
+			var day = _g1[_g];
 			++_g;
 			datesMap_h[day] = dates.shift();
 			dates.shift();
@@ -6203,8 +6200,7 @@ PlayState.prototype = $extend(flixel_FlxState.prototype,{
 		var key_current = 0;
 		while(key_current < key_length) {
 			var key = key_keys[key_current++];
-			haxe_Log.trace("" + key + " is " + datesMap_h[key],{ fileName : "source/PlayState.hx", lineNumber : 115, className : "PlayState", methodName : "create"});
-			this.shifts.h[key] = { day : key, date : datesMap_h[key], managersDay : [], productionDay : [], serversDay : [], managersNight : [], productionNight : [], serversNight : []};
+			this.shifts.h[key] = { day : key, date : datesMap_h[key], managersDay : [], productionDay : [], serversDay : [], traineesDay : [], openPrepDay : [], managersNight : [], productionNight : [], serversNight : [], traineesNight : [], openPrepNight : []};
 		}
 		var startingNames = 5;
 		var line = startingNames;
@@ -6223,7 +6219,6 @@ PlayState.prototype = $extend(flixel_FlxState.prototype,{
 			}
 			if(line1[0].indexOf("\"") == -1) {
 				baseTitle = line1[0];
-				haxe_Log.trace("Showing " + line1[0] + "s",{ fileName : "source/PlayState.hx", lineNumber : 149, className : "PlayState", methodName : "create"});
 				continue;
 			}
 			line1.splice(19,1);
@@ -6237,8 +6232,6 @@ PlayState.prototype = $extend(flixel_FlxState.prototype,{
 				break;
 			}
 			var name = StringTools.replace(StringTools.replace(line1[1],"\"","")," ","") + " " + StringTools.replace(StringTools.replace(line1[0],"\"","")," ","");
-			haxe_Log.trace("name is " + name,{ fileName : "source/PlayState.hx", lineNumber : 167, className : "PlayState", methodName : "create"});
-			haxe_Log.trace("" + name + " is " + (line1[3].indexOf("Minor") != -1 ? "a Minor" : "not a minor"),{ fileName : "source/PlayState.hx", lineNumber : 168, className : "PlayState", methodName : "create"});
 			var minor = false;
 			if(line1[3].indexOf("Minor") != -1) {
 				minor = true;
@@ -6247,15 +6240,20 @@ PlayState.prototype = $extend(flixel_FlxState.prototype,{
 			var value = { name : name, minor : minor, shifts : new haxe_ds_StringMap(), baseTitle : baseTitle};
 			this1.h[name] = value;
 			var hours = line1[4];
-			haxe_Log.trace("" + name + "'s hours: " + hours,{ fileName : "source/PlayState.hx", lineNumber : 181, className : "PlayState", methodName : "create"});
 			var startingMonday = 4;
 			var _g = 0;
 			while(_g < 7) {
 				var i = _g++;
-				if(line1[startingMonday + 1 + i * 2] == "") {
-					haxe_Log.trace("" + name + " not scheduled " + days[i],{ fileName : "source/PlayState.hx", lineNumber : 189, className : "PlayState", methodName : "create"});
-				} else {
-					haxe_Log.trace("" + name + " scheduled " + days[i] + " on " + line2[startingMonday + i * 2] + " from " + line1[startingMonday + 1 + i * 2] + " to " + StringTools.trim(line1[startingMonday + 2 + i * 2]),{ fileName : "source/PlayState.hx", lineNumber : 193, className : "PlayState", methodName : "create"});
+				if(line1[startingMonday + 1 + i * 2] != "") {
+					var _g1 = 0;
+					var _g2 = this.ignore;
+					while(_g1 < _g2.length) {
+						var word = _g2[_g1];
+						++_g1;
+						if(line2[startingMonday + i * 2].indexOf(word) != -1) {
+							continue;
+						}
+					}
 					var inTime = line1[startingMonday + 1 + i * 2];
 					var inTimePM = false;
 					if(inTime.indexOf("PM") != -1) {
@@ -6284,63 +6282,98 @@ PlayState.prototype = $extend(flixel_FlxState.prototype,{
 						outTimeSplit[0] = "" + (Std.parseInt(outTimeSplit[0]) + 12);
 					}
 					var outTimeMinutes = Std.parseInt(outTimeSplit[0]) * 60 + Std.parseInt(outTimeSplit[1]);
-					var morning = inTimeMinutes <= 720 && outTimeMinutes <= 1020 || inTimeMinutes < 660;
+					var morning = inTimeMinutes <= 720 && outTimeMinutes <= 1020 || inTimeMinutes <= 690;
 					var evening = inTimeMinutes >= 720 && outTimeMinutes > 960 || outTimeMinutes > 1020;
 					var this2 = this.people.h[name].shifts;
+					var key = this.days[i];
 					var line11 = line1[startingMonday + 1 + i * 2];
 					var value1 = StringTools.trim(line1[startingMonday + 2 + i * 2]);
-					this2.h[days[i]] = { inTime : line11, inTimeMinutes : inTimeMinutes, outTime : value1, outTimeMinutes : outTimeMinutes, position : line2[startingMonday + i * 2], name : name, minor : minor, morning : morning, evening : evening};
+					this2.h[key] = { inTime : line11, inTimeMinutes : inTimeMinutes, outTime : value1, outTimeMinutes : outTimeMinutes, position : line2[startingMonday + i * 2], name : name, minor : minor, morning : morning, evening : evening};
 					var position = baseTitle;
-					var _g1 = 0;
-					var _g2 = this.prodKeywords;
-					while(_g1 < _g2.length) {
-						var word = _g2[_g1];
-						++_g1;
-						if(line2[startingMonday + i * 2].indexOf(word) != -1) {
-							position = "Production";
-						}
-					}
 					var _g3 = 0;
-					var _g4 = this.serveKeywords;
+					var _g4 = this.prodKeywords;
 					while(_g3 < _g4.length) {
 						var word1 = _g4[_g3];
 						++_g3;
 						if(line2[startingMonday + i * 2].indexOf(word1) != -1) {
-							position = "Server";
+							position = "Production";
 						}
 					}
 					var _g5 = 0;
-					var _g6 = this.managerKeywords;
+					var _g6 = this.serveKeywords;
 					while(_g5 < _g6.length) {
 						var word2 = _g6[_g5];
 						++_g5;
 						if(line2[startingMonday + i * 2].indexOf(word2) != -1) {
+							position = "Server";
+						}
+					}
+					var _g7 = 0;
+					var _g8 = this.openPrepKeywords;
+					while(_g7 < _g8.length) {
+						var word3 = _g8[_g7];
+						++_g7;
+						if(line2[startingMonday + i * 2].indexOf(word3) != -1) {
+							position = "Open/Prep";
+						}
+					}
+					var _g9 = 0;
+					var _g10 = this.traineeKeywords;
+					while(_g9 < _g10.length) {
+						var word4 = _g10[_g9];
+						++_g9;
+						if(line2[startingMonday + i * 2].indexOf(word4) != -1) {
+							position = "Trainee";
+						}
+					}
+					var _g11 = 0;
+					var _g12 = this.managerKeywords;
+					while(_g11 < _g12.length) {
+						var word5 = _g12[_g11];
+						++_g11;
+						if(line2[startingMonday + i * 2].indexOf(word5) != -1) {
 							position = "Manager";
 						}
 					}
 					switch(position) {
 					case "Manager":
 						if(morning) {
-							this.shifts.h[days[i]].managersDay.push(this.people.h[name].shifts.h[days[i]]);
+							this.shifts.h[this.days[i]].managersDay.push(this.people.h[name].shifts.h[this.days[i]]);
 						}
 						if(evening) {
-							this.shifts.h[days[i]].managersNight.push(this.people.h[name].shifts.h[days[i]]);
+							this.shifts.h[this.days[i]].managersNight.push(this.people.h[name].shifts.h[this.days[i]]);
+						}
+						break;
+					case "Open/Prep":
+						if(morning) {
+							this.shifts.h[this.days[i]].openPrepDay.push(this.people.h[name].shifts.h[this.days[i]]);
+						}
+						if(evening) {
+							this.shifts.h[this.days[i]].openPrepNight.push(this.people.h[name].shifts.h[this.days[i]]);
 						}
 						break;
 					case "Production":
 						if(morning) {
-							this.shifts.h[days[i]].productionDay.push(this.people.h[name].shifts.h[days[i]]);
+							this.shifts.h[this.days[i]].productionDay.push(this.people.h[name].shifts.h[this.days[i]]);
 						}
 						if(evening) {
-							this.shifts.h[days[i]].productionNight.push(this.people.h[name].shifts.h[days[i]]);
+							this.shifts.h[this.days[i]].productionNight.push(this.people.h[name].shifts.h[this.days[i]]);
 						}
 						break;
 					case "Server":
 						if(morning) {
-							this.shifts.h[days[i]].serversDay.push(this.people.h[name].shifts.h[days[i]]);
+							this.shifts.h[this.days[i]].serversDay.push(this.people.h[name].shifts.h[this.days[i]]);
 						}
 						if(evening) {
-							this.shifts.h[days[i]].serversNight.push(this.people.h[name].shifts.h[days[i]]);
+							this.shifts.h[this.days[i]].serversNight.push(this.people.h[name].shifts.h[this.days[i]]);
+						}
+						break;
+					case "Trainee":
+						if(morning) {
+							this.shifts.h[this.days[i]].traineesDay.push(this.people.h[name].shifts.h[this.days[i]]);
+						}
+						if(evening) {
+							this.shifts.h[this.days[i]].traineesNight.push(this.people.h[name].shifts.h[this.days[i]]);
 						}
 						break;
 					}
@@ -6349,40 +6382,42 @@ PlayState.prototype = $extend(flixel_FlxState.prototype,{
 		}
 		this.buttonTexts = new flixel_group_FlxTypedGroup();
 		this.add(this.buttonTexts);
-		var button = new ButtonText(50,25,0,"Save " + days[0],16,function() {
-			_gthis.displayDay(days[0]);
+		var button = new ButtonText(50,25,0,"Save " + this.days[0],16,function() {
+			_gthis.displayDay(_gthis.days[0],false);
 		});
 		this.buttonTexts.add(button);
-		var button = new ButtonText(50,75,0,"Save " + days[1],16,function() {
-			_gthis.displayDay(days[1]);
+		var button = new ButtonText(50,75,0,"Save " + this.days[1],16,function() {
+			_gthis.displayDay(_gthis.days[1],false);
 		});
 		this.buttonTexts.add(button);
-		var button = new ButtonText(50,125,0,"Save " + days[2],16,function() {
-			_gthis.displayDay(days[2]);
+		var button = new ButtonText(50,125,0,"Save " + this.days[2],16,function() {
+			_gthis.displayDay(_gthis.days[2],false);
 		});
 		this.buttonTexts.add(button);
-		var button = new ButtonText(50,175,0,"Save " + days[3],16,function() {
-			_gthis.displayDay(days[3]);
+		var button = new ButtonText(50,175,0,"Save " + this.days[3],16,function() {
+			_gthis.displayDay(_gthis.days[3],false);
 		});
 		this.buttonTexts.add(button);
-		var button = new ButtonText(50,225,0,"Save " + days[4],16,function() {
-			_gthis.displayDay(days[4]);
+		var button = new ButtonText(50,225,0,"Save " + this.days[4],16,function() {
+			_gthis.displayDay(_gthis.days[4],false);
 		});
 		this.buttonTexts.add(button);
-		var button = new ButtonText(50,275,0,"Save " + days[5],16,function() {
-			_gthis.displayDay(days[5]);
+		var button = new ButtonText(50,275,0,"Save " + this.days[5],16,function() {
+			_gthis.displayDay(_gthis.days[5],false);
 		});
 		this.buttonTexts.add(button);
-		var button = new ButtonText(50,325,0,"Save " + days[6],16,function() {
-			_gthis.displayDay(days[6]);
+		var button = new ButtonText(50,325,0,"Save " + this.days[6],16,function() {
+			_gthis.displayDay(_gthis.days[6],false);
 		});
 		this.buttonTexts.add(button);
 		var button = new ButtonText(50,375,0,"Save All Days",16,function() {
-			flixel_FlxG.camera.flash();
+			var button = _gthis.days.slice();
+			_gthis.daysCopy = button;
+			_gthis.displayDay(_gthis.daysCopy.shift(),true);
 		});
 		this.buttonTexts.add(button);
 	}
-	,displayDay: function(day) {
+	,displayDay: function(day,onSaveDoNext) {
 		if(this.lineup != null) {
 			this.lineup.destroy();
 			this.lineup = null;
@@ -6413,17 +6448,18 @@ PlayState.prototype = $extend(flixel_FlxState.prototype,{
 		shift.managersDay.sort($bind(this,this.sortByOutTime));
 		shift.productionDay.sort($bind(this,this.sortByOutTime));
 		shift.serversDay.sort($bind(this,this.sortByOutTime));
+		shift.traineesDay.sort($bind(this,this.sortByOutTime));
+		shift.openPrepDay.sort($bind(this,this.sortByOutTime));
 		shift.managersNight.sort($bind(this,this.sortByOutTime));
 		shift.productionNight.sort($bind(this,this.sortByOutTime));
 		shift.serversNight.sort($bind(this,this.sortByOutTime));
-		haxe_Log.trace("" + day + "'s Lineup:",{ fileName : "source/PlayState.hx", lineNumber : 339, className : "PlayState", methodName : "displayDay"});
-		haxe_Log.trace(shift,{ fileName : "source/PlayState.hx", lineNumber : 340, className : "PlayState", methodName : "displayDay"});
+		shift.traineesNight.sort($bind(this,this.sortByOutTime));
+		shift.openPrepNight.sort($bind(this,this.sortByOutTime));
 		this.lineup = new flixel_group_FlxTypedGroup();
-		this.add(this.lineup);
 		var height = flixel_FlxG.height;
 		var width = 8.5 * height;
 		width /= 11;
-		var paper = new flixel_FlxSprite().loadGraphic("assets/images/blankLineup.png");
+		var paper = new flixel_FlxSprite().loadGraphic("assets/images/lineupBIGSpace.png");
 		paper.setPosition(flixel_FlxG.width - paper.get_width(),0);
 		var paperX = paper.x;
 		this.lineup.add(paper);
@@ -6435,7 +6471,7 @@ PlayState.prototype = $extend(flixel_FlxState.prototype,{
 		shortenedDays_h["Friday"] = "Fri";
 		shortenedDays_h["Saturday"] = "Sat";
 		shortenedDays_h["Sunday"] = "Sun";
-		var dayText = new Text(paper.x + 175,paper.y + 280,0,"" + shortenedDays_h[shift.day] + ", " + shift.date,72);
+		var dayText = new Text(paper.x + 60,paper.y + 100,0,"" + shortenedDays_h[shift.day] + ", " + shift.date,24);
 		dayText.set_color(-16777216);
 		var highlight = new flixel_FlxSprite(dayText.x,dayText.y).makeGraphic(dayText.get_width() | 0,dayText.get_height() | 0,-1);
 		highlight.set_alpha(.6);
@@ -6446,11 +6482,16 @@ PlayState.prototype = $extend(flixel_FlxState.prototype,{
 		while(_g < _g1) {
 			var i = _g++;
 			var shiftMgr = shift.managersDay[i];
-			var name = shiftMgr.name.split(" ")[0] + " " + shiftMgr.name.split(" ")[1].charAt(0);
+			if(i > 0) {
+				haxe_Log.trace("manager " + shiftMgr.name + " cant fit",{ fileName : "source/PlayState.hx", lineNumber : 421, className : "PlayState", methodName : "displayDay"});
+				continue;
+			}
+			var firstName = shiftMgr.name.split(" ")[0];
+			var name = "" + firstName.charAt(0).toUpperCase() + HxOverrides.substr(firstName,1,null) + " " + shiftMgr.name.split(" ")[1].charAt(0).toUpperCase();
 			if(Object.prototype.hasOwnProperty.call(this.nameFilter.h,name)) {
 				name = this.nameFilter.h[name];
 			}
-			var text = new Text(paper.x + 170,paper.y + 575 + 90 * i,0,"" + name + " " + shiftMgr.inTime.split(" ")[0] + " - " + shiftMgr.outTime.split(" ")[0],48);
+			var text = new Text(paper.x + 70,paper.y + 205 + 90 * i,0,"" + name + " " + shiftMgr.inTime.split(" ")[0] + " - " + shiftMgr.outTime.split(" ")[0],24);
 			text.set_color(-16777216);
 			var highlight = new flixel_FlxSprite(text.x,text.y).makeGraphic(text.get_width() | 0,text.get_height() | 0,shiftMgr.minor ? -256 : -1);
 			highlight.set_alpha(.6);
@@ -6462,11 +6503,12 @@ PlayState.prototype = $extend(flixel_FlxState.prototype,{
 		while(_g < _g1) {
 			var i = _g++;
 			var prod = shift.productionDay[i];
-			var name = prod.name.split(" ")[0] + " " + prod.name.split(" ")[1].charAt(0);
+			var firstName = prod.name.split(" ")[0];
+			var name = "" + firstName.charAt(0).toUpperCase() + HxOverrides.substr(firstName,1,null) + " " + prod.name.split(" ")[1].charAt(0).toUpperCase();
 			if(Object.prototype.hasOwnProperty.call(this.nameFilter.h,name)) {
 				name = this.nameFilter.h[name];
 			}
-			var text = new Text(paper.x + 170,paper.y + 930 + 90 * i,0,"" + name + " " + prod.inTime.split(" ")[0] + " - " + prod.outTime.split(" ")[0],48);
+			var text = new Text(paper.x + 70,paper.y + 330 + 70 * i,0,"" + name + " " + prod.inTime.split(" ")[0] + " - " + prod.outTime.split(" ")[0],24);
 			text.set_color(-16777216);
 			var highlight = new flixel_FlxSprite(text.x,text.y).makeGraphic(text.get_width() | 0,text.get_height() | 0,prod.minor ? -256 : -1);
 			highlight.set_alpha(.6);
@@ -6478,13 +6520,56 @@ PlayState.prototype = $extend(flixel_FlxState.prototype,{
 		while(_g < _g1) {
 			var i = _g++;
 			var server = shift.serversDay[i];
-			var name = server.name.split(" ")[0] + " " + server.name.split(" ")[1].charAt(0);
+			var firstName = server.name.split(" ")[0];
+			var name = "" + firstName.charAt(0).toUpperCase() + HxOverrides.substr(firstName,1,null) + " " + server.name.split(" ")[1].charAt(0).toUpperCase();
 			if(Object.prototype.hasOwnProperty.call(this.nameFilter.h,name)) {
 				name = this.nameFilter.h[name];
 			}
-			var text = new Text(paper.x + 170,paper.y + 1810 + 90 * i,0,"" + name + " " + server.inTime.split(" ")[0] + " - " + server.outTime.split(" ")[0],48);
+			var text = new Text(paper.x + 70,paper.y + 650 + 70 * i,0,"" + name + " " + server.inTime.split(" ")[0] + " - " + server.outTime.split(" ")[0],24);
 			text.set_color(-16777216);
 			var highlight = new flixel_FlxSprite(text.x,text.y).makeGraphic(text.get_width() | 0,text.get_height() | 0,server.minor ? -256 : -1);
+			highlight.set_alpha(.6);
+			this.lineup.add(highlight);
+			this.lineup.add(text);
+		}
+		var _g = 0;
+		var _g1 = shift.traineesDay.length;
+		while(_g < _g1) {
+			var i = _g++;
+			var trainee = shift.traineesDay[i];
+			var firstName = trainee.name.split(" ")[0];
+			var name = "" + firstName.charAt(0).toUpperCase() + HxOverrides.substr(firstName,1,null) + " " + trainee.name.split(" ")[1].charAt(0).toUpperCase();
+			if(Object.prototype.hasOwnProperty.call(this.nameFilter.h,name)) {
+				name = this.nameFilter.h[name];
+			}
+			var text = new Text(paper.x + 890,paper.y + 200 + 70 * i,0,"" + name + " " + trainee.inTime.split(" ")[0] + " - " + trainee.outTime.split(" ")[0],24);
+			text.set_color(-16777216);
+			var highlight = new flixel_FlxSprite(text.x,text.y).makeGraphic(text.get_width() | 0,text.get_height() | 0,trainee.minor ? -256 : -1);
+			highlight.set_alpha(.6);
+			this.lineup.add(highlight);
+			this.lineup.add(text);
+		}
+		var _g = 0;
+		var _g1 = shift.openPrepDay.length;
+		while(_g < _g1) {
+			var i = _g++;
+			var opener = shift.openPrepDay[i];
+			if(i > 0) {
+				haxe_Log.trace("opener " + opener.name + " cant fit",{ fileName : "source/PlayState.hx", lineNumber : 506, className : "PlayState", methodName : "displayDay"});
+				continue;
+			}
+			var firstName = opener.name.split(" ")[0];
+			var name = "" + firstName.charAt(0).toUpperCase() + HxOverrides.substr(firstName,1,null) + " " + opener.name.split(" ")[1].charAt(0).toUpperCase();
+			if(Object.prototype.hasOwnProperty.call(this.nameFilter.h,name)) {
+				name = this.nameFilter.h[name];
+			}
+			var text = new Text(paper.x + 10,paper.y + 600,0,"" + name + " " + opener.inTime.split(" ")[0] + " - " + opener.outTime.split(" ")[0],32);
+			text.set_color(-16777216);
+			text.set_angle(-90);
+			var tempW = text.get_width();
+			text.set_width(text.get_height());
+			text.set_height(tempW);
+			var highlight = new flixel_FlxSprite(text.x,text.y).makeGraphic(text.get_width() | 0,text.get_height() | 0,opener.minor ? -256 : -1);
 			highlight.set_alpha(.6);
 			this.lineup.add(highlight);
 			this.lineup.add(text);
@@ -6494,11 +6579,16 @@ PlayState.prototype = $extend(flixel_FlxState.prototype,{
 		while(_g < _g1) {
 			var i = _g++;
 			var shiftMgr = shift.managersNight[i];
-			var name = shiftMgr.name.split(" ")[0] + " " + shiftMgr.name.split(" ")[1].charAt(0);
+			if(i > 0) {
+				haxe_Log.trace("manager " + shiftMgr.name + " cant fit",{ fileName : "source/PlayState.hx", lineNumber : 538, className : "PlayState", methodName : "displayDay"});
+				continue;
+			}
+			var firstName = shiftMgr.name.split(" ")[0];
+			var name = "" + firstName.charAt(0).toUpperCase() + HxOverrides.substr(firstName,1,null) + " " + shiftMgr.name.split(" ")[1].charAt(0).toUpperCase();
 			if(Object.prototype.hasOwnProperty.call(this.nameFilter.h,name)) {
 				name = this.nameFilter.h[name];
 			}
-			var text = new Text(paper.x + 170,paper.y + 2525 + 90 * i,0,"" + name + " " + shiftMgr.inTime.split(" ")[0] + " - " + shiftMgr.outTime.split(" ")[0],48);
+			var text = new Text(paper.x + 70,paper.y + 915 + 90 * i,0,"" + name + " " + shiftMgr.inTime.split(" ")[0] + " - " + shiftMgr.outTime.split(" ")[0],24);
 			text.set_color(-16777216);
 			var highlight = new flixel_FlxSprite(text.x,text.y).makeGraphic(text.get_width() | 0,text.get_height() | 0,shiftMgr.minor ? -256 : -1);
 			highlight.set_alpha(.6);
@@ -6510,11 +6600,12 @@ PlayState.prototype = $extend(flixel_FlxState.prototype,{
 		while(_g < _g1) {
 			var i = _g++;
 			var prod = shift.productionNight[i];
-			var name = prod.name.split(" ")[0] + " " + prod.name.split(" ")[1].charAt(0);
+			var firstName = prod.name.split(" ")[0];
+			var name = "" + firstName.charAt(0).toUpperCase() + HxOverrides.substr(firstName,1,null) + " " + prod.name.split(" ")[1].charAt(0).toUpperCase();
 			if(Object.prototype.hasOwnProperty.call(this.nameFilter.h,name)) {
 				name = this.nameFilter.h[name];
 			}
-			var text = new Text(paper.x + 170,paper.y + 2880 + 90 * i,0,"" + name + " " + prod.inTime.split(" ")[0] + " - " + prod.outTime.split(" ")[0],48);
+			var text = new Text(paper.x + 70,paper.y + 1040 + 70 * i,0,"" + name + " " + prod.inTime.split(" ")[0] + " - " + prod.outTime.split(" ")[0],24);
 			text.set_color(-16777216);
 			var highlight = new flixel_FlxSprite(text.x,text.y).makeGraphic(text.get_width() | 0,text.get_height() | 0,prod.minor ? -256 : -1);
 			highlight.set_alpha(.6);
@@ -6526,18 +6617,36 @@ PlayState.prototype = $extend(flixel_FlxState.prototype,{
 		while(_g < _g1) {
 			var i = _g++;
 			var server = shift.serversNight[i];
-			var name = server.name.split(" ")[0] + " " + server.name.split(" ")[1].charAt(0);
+			var firstName = server.name.split(" ")[0];
+			var name = "" + firstName.charAt(0).toUpperCase() + HxOverrides.substr(firstName,1,null) + " " + server.name.split(" ")[1].charAt(0).toUpperCase();
 			if(Object.prototype.hasOwnProperty.call(this.nameFilter.h,name)) {
 				name = this.nameFilter.h[name];
 			}
-			var text = new Text(paper.x + 170,paper.y + 3770 + 90 * i,0,"" + name + " " + server.inTime.split(" ")[0] + " - " + server.outTime.split(" ")[0],48);
+			var text = new Text(paper.x + 70,paper.y + 1360 + 70 * i,0,"" + name + " " + server.inTime.split(" ")[0] + " - " + server.outTime.split(" ")[0],24);
 			text.set_color(-16777216);
 			var highlight = new flixel_FlxSprite(text.x,text.y).makeGraphic(text.get_width() | 0,text.get_height() | 0,server.minor ? -256 : -1);
 			highlight.set_alpha(.6);
 			this.lineup.add(highlight);
 			this.lineup.add(text);
 		}
-		this.saveLineup(shift.day,shift.date);
+		var _g = 0;
+		var _g1 = shift.traineesNight.length;
+		while(_g < _g1) {
+			var i = _g++;
+			var trainee = shift.traineesNight[i];
+			var firstName = trainee.name.split(" ")[0];
+			var name = "" + firstName.charAt(0).toUpperCase() + HxOverrides.substr(firstName,1,null) + " " + trainee.name.split(" ")[1].charAt(0).toUpperCase();
+			if(Object.prototype.hasOwnProperty.call(this.nameFilter.h,name)) {
+				name = this.nameFilter.h[name];
+			}
+			var text = new Text(paper.x + 890,paper.y + 905 + 70 * i,0,"" + name + " " + trainee.inTime.split(" ")[0] + " - " + trainee.outTime.split(" ")[0],24);
+			text.set_color(-16777216);
+			var highlight = new flixel_FlxSprite(text.x,text.y).makeGraphic(text.get_width() | 0,text.get_height() | 0,trainee.minor ? -256 : -1);
+			highlight.set_alpha(.6);
+			this.lineup.add(highlight);
+			this.lineup.add(text);
+		}
+		this.saveLineup(shift.day,shift.date,onSaveDoNext);
 	}
 	,sortByOutTime: function(shift1,shift2) {
 		return this.mySortFunction(-1,shift1,shift2);
@@ -6579,8 +6688,7 @@ PlayState.prototype = $extend(flixel_FlxState.prototype,{
 			}
 		}
 	}
-	,saveLineup: function(day,date) {
-		var _gthis = this;
+	,saveLineup: function(day,date,onSaveDoNext) {
 		if(this.lineup != null) {
 			var bitmap = new openfl_display_BitmapData(this.lineup.members[0].get_width() | 0,this.lineup.members[0].get_height() | 0);
 			var _g = 0;
@@ -6588,23 +6696,36 @@ PlayState.prototype = $extend(flixel_FlxState.prototype,{
 			while(_g < _g1) {
 				var i = _g++;
 				var member = this.lineup.members[i];
-				bitmap.draw(member.get_pixels(),new openfl_geom_Matrix(1,0,0,1,member.x - this.lineup.members[0].x,member.y - this.lineup.members[0].y));
+				var matrix = new flixel_math_FlxMatrix(1,0,0,1,0,0);
+				if(member.angle == -90) {
+					matrix.setTo(matrix.b,-matrix.a,matrix.d,-matrix.c,matrix.ty,-matrix.tx);
+				}
+				matrix.translate(member.x - this.lineup.members[0].x,member.y - this.lineup.members[0].y);
+				bitmap.draw(member.get_pixels(),matrix);
 			}
-			new flixel_util_FlxTimer().start(1,function(tmr) {
-				_gthis.lineup.destroy();
-				_gthis.lineup = null;
-				new flixel_util_FlxTimer().start(1,function(tmr) {
-					var spr = new flixel_FlxSprite().loadGraphic(bitmap);
-					spr.setGraphicSize(0,flixel_FlxG.height);
-					spr.updateHitbox();
-					spr.setPosition(flixel_FlxG.width - spr.get_width(),0);
-					_gthis.add(spr);
-					PlayState.saveImage(bitmap,day,date,function(str) {
-						haxe_Log.trace(str,{ fileName : "source/PlayState.hx", lineNumber : 576, className : "PlayState", methodName : "saveLineup"});
-					});
-				});
-			});
+			this.lineup.destroy();
+			this.lineup = null;
+			var spr = new flixel_FlxSprite().loadGraphic(bitmap);
+			spr.setGraphicSize(0,flixel_FlxG.height);
+			spr.updateHitbox();
+			spr.setPosition(flixel_FlxG.width - spr.get_width(),0);
+			this.add(spr);
+			this.saveImage(bitmap,day,date,onSaveDoNext);
 		}
+	}
+	,saveImage: function(bitmapData,day,date,onSaveDoNext) {
+		var _gthis = this;
+		var b = new openfl_utils_ByteArrayData(0);
+		b = bitmapData.encode(bitmapData.rect,new openfl_display_PNGEncoderOptions(true),b);
+		var dialog = new lime_ui_FileDialog();
+		dialog.onSave.add(function(str) {
+			if(onSaveDoNext) {
+				if(_gthis.daysCopy.length > 0) {
+					_gthis.displayDay(_gthis.daysCopy.shift(),true);
+				}
+			}
+		});
+		dialog.save(b,"png","" + day + "-" + date.split("/")[0] + "-" + date.split("/")[1],"Choose where to save the lineup");
 	}
 	,__class__: PlayState
 });
@@ -75737,7 +75858,7 @@ var lime_utils_AssetCache = function() {
 	this.audio = new haxe_ds_StringMap();
 	this.font = new haxe_ds_StringMap();
 	this.image = new haxe_ds_StringMap();
-	this.version = 20476;
+	this.version = 224247;
 };
 $hxClasses["lime.utils.AssetCache"] = lime_utils_AssetCache;
 lime_utils_AssetCache.__name__ = "lime.utils.AssetCache";
