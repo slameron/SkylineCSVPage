@@ -940,7 +940,7 @@ ApplicationMain.main = function() {
 ApplicationMain.create = function(config) {
 	var app = new openfl_display_Application();
 	ManifestResources.init(config);
-	app.meta.h["build"] = "7";
+	app.meta.h["build"] = "8";
 	app.meta.h["company"] = "HaxeFlixel";
 	app.meta.h["file"] = "SkylineCSVTest";
 	app.meta.h["name"] = "SkylineCSVTest";
@@ -6641,8 +6641,8 @@ var PlayState = function(csv,period,week,sales,labor,cleaning,goals) {
 	this.cleaningMorningW2 = [["BOH Swing Door","Hot Sauce Bottles"],["Ice Machine","Glass Doors and Drive Thru Window"],["Window Sills","Delime Dish Machine"],["POS Equipment","Dust Pans"],["Glass Doors and Drive Thru Window","Hot Sauce Bottles"],["Wipe Green Shelves in BOH","Stainless Steel in Kitchen"],["Delime Dish Machine","Mop Sink (Organize and Clean)"]];
 	this.cleaningMorningW1 = [["BOH Swing Door","Hot Sauce Bottles"],["Pull Prep Table *","Glass Doors and Drive Thru Window"],["Window Sills","Delime Dish Machine"],["POS Equipment","Dust Pans"],["Glass Doors and Drive Thru Window","Hot Sauce Bottles"],["Dome Lights *","Stainless Steel in Kitchen"],["Delime Dish Machine","Mop Sink (Organize and Clean)"]];
 	this.traineeKeywords = ["Trainee"];
-	this.serveKeywords = ["Server"];
-	this.prodKeywords = ["Production","Dish"];
+	this.serveKeywords = ["Server","Server/Cashier"];
+	this.prodKeywords = ["Production","Dish","Prod/Cashier"];
 	this.managerKeywords = ["Manager","Administration","MIC"];
 	this.openPrepKeywords = ["Open/Prep"];
 	this.ignore = ["Meeting"];
@@ -6744,12 +6744,18 @@ PlayState.prototype = $extend(flixel_FlxState.prototype,{
 			line1.splice(19,1);
 			line1.splice(16,1);
 			line1.splice(13,1);
-			var line2 = array.shift().split(",");
-			line2.splice(18,1);
-			line2.splice(15,1);
-			line2.splice(12,1);
-			if(line2[0] == breaker) {
-				break;
+			var usesLine2 = array[0].split(",")[0] == "";
+			var line2 = null;
+			if(usesLine2) {
+				line2 = array.shift().split(",");
+				line2.splice(18,1);
+				line2.splice(15,1);
+				line2.splice(12,1);
+				if(line2[0] == breaker) {
+					break;
+				}
+			} else {
+				haxe_Log.trace("Not using line 2...",{ fileName : "source/PlayState.hx", lineNumber : 272, className : "PlayState", methodName : "create"});
 			}
 			var name = StringTools.replace(StringTools.replace(line1[1],"\"","")," ","") + " " + StringTools.replace(StringTools.replace(line1[0],"\"","")," ","");
 			var firstName = name.split(" ")[0];
@@ -6770,13 +6776,15 @@ PlayState.prototype = $extend(flixel_FlxState.prototype,{
 			while(_g < 7) {
 				var i = _g++;
 				if(line1[startingMonday + 1 + i * 2] != "") {
-					var _g1 = 0;
-					var _g2 = this.ignore;
-					while(_g1 < _g2.length) {
-						var word = _g2[_g1];
-						++_g1;
-						if(line2[startingMonday + i * 2].indexOf(word) != -1) {
-							continue;
+					if(usesLine2) {
+						var _g1 = 0;
+						var _g2 = this.ignore;
+						while(_g1 < _g2.length) {
+							var word = _g2[_g1];
+							++_g1;
+							if(line2[startingMonday + i * 2].indexOf(word) != -1) {
+								continue;
+							}
 						}
 					}
 					var inTime = line1[startingMonday + 1 + i * 2];
@@ -6809,18 +6817,18 @@ PlayState.prototype = $extend(flixel_FlxState.prototype,{
 					var outTimeMinutes = Std.parseInt(outTimeSplit[0]) * 60 + Std.parseInt(outTimeSplit[1]);
 					var morning = inTimeMinutes <= 840 && outTimeMinutes < 1320;
 					var evening = outTimeMinutes > 1020;
+					var position = baseTitle;
 					var this2 = this.people.h[name].shifts;
 					var key = this.days[i];
 					var line11 = line1[startingMonday + 1 + i * 2];
 					var value1 = StringTools.trim(line1[startingMonday + 2 + i * 2]);
-					this2.h[key] = { inTime : line11, inTimeMinutes : inTimeMinutes, outTime : value1, outTimeMinutes : outTimeMinutes, position : line2[startingMonday + i * 2], name : name, minor : minor, morning : morning, evening : evening};
-					var position = baseTitle;
+					this2.h[key] = { inTime : line11, inTimeMinutes : inTimeMinutes, outTime : value1, outTimeMinutes : outTimeMinutes, position : usesLine2 ? line2[startingMonday + i * 2] : baseTitle, name : name, minor : minor, morning : morning, evening : evening};
 					var _g3 = 0;
 					var _g4 = this.prodKeywords;
 					while(_g3 < _g4.length) {
 						var word1 = _g4[_g3];
 						++_g3;
-						if(line2[startingMonday + i * 2].indexOf(word1) != -1) {
+						if(usesLine2 && line2[startingMonday + i * 2].indexOf(word1) != -1 || (usesLine2 && line2[startingMonday + i * 2] == "" || !usesLine2) && position.indexOf(word1) != -1) {
 							position = "Production";
 						}
 					}
@@ -6829,7 +6837,7 @@ PlayState.prototype = $extend(flixel_FlxState.prototype,{
 					while(_g5 < _g6.length) {
 						var word2 = _g6[_g5];
 						++_g5;
-						if(line2[startingMonday + i * 2].indexOf(word2) != -1) {
+						if(usesLine2 && line2[startingMonday + i * 2].indexOf(word2) != -1 || (usesLine2 && line2[startingMonday + i * 2] == "" || !usesLine2) && position.indexOf(word2) != -1) {
 							position = "Server";
 						}
 					}
@@ -6838,7 +6846,7 @@ PlayState.prototype = $extend(flixel_FlxState.prototype,{
 					while(_g7 < _g8.length) {
 						var word3 = _g8[_g7];
 						++_g7;
-						if(line2[startingMonday + i * 2].indexOf(word3) != -1) {
+						if(usesLine2 && line2[startingMonday + i * 2].indexOf(word3) != -1 || (usesLine2 && line2[startingMonday + i * 2] == "" || !usesLine2) && position.indexOf(word3) != -1) {
 							position = "Open/Prep";
 						}
 					}
@@ -6847,7 +6855,7 @@ PlayState.prototype = $extend(flixel_FlxState.prototype,{
 					while(_g9 < _g10.length) {
 						var word4 = _g10[_g9];
 						++_g9;
-						if(line2[startingMonday + i * 2].indexOf(word4) != -1) {
+						if(usesLine2 && line2[startingMonday + i * 2].indexOf(word4) != -1 || (usesLine2 && line2[startingMonday + i * 2] == "" || !usesLine2) && position.indexOf(word4) != -1) {
 							position = "Trainee";
 						}
 					}
@@ -6859,7 +6867,7 @@ PlayState.prototype = $extend(flixel_FlxState.prototype,{
 					while(_g11 < _g12.length) {
 						var word5 = _g12[_g11];
 						++_g11;
-						if(line2[startingMonday + i * 2].indexOf(word5) != -1) {
+						if(usesLine2 && line2[startingMonday + i * 2].indexOf(word5) != -1 || (usesLine2 && line2[startingMonday + i * 2] == "" || !usesLine2) && position.indexOf(word5) != -1) {
 							position = "Manager";
 						}
 					}
@@ -7026,7 +7034,7 @@ PlayState.prototype = $extend(flixel_FlxState.prototype,{
 				goalsText.set_size((goalsText._defaultFormat.size | 0) - 2);
 				goalsText.updateHitbox();
 			}
-			haxe_Log.trace("size is " + (goalsText._defaultFormat.size | 0),{ fileName : "source/PlayState.hx", lineNumber : 561, className : "PlayState", methodName : "displayDay"});
+			haxe_Log.trace("size is " + (goalsText._defaultFormat.size | 0),{ fileName : "source/PlayState.hx", lineNumber : 577, className : "PlayState", methodName : "displayDay"});
 			var highlight = new flixel_FlxSprite(goalsText.x,goalsText.y).makeGraphic(goalsText.get_width() | 0,goalsText.get_height() | 0,-1);
 			this.lineup.add(highlight);
 			this.lineup.add(goalsText);
@@ -7209,7 +7217,7 @@ PlayState.prototype = $extend(flixel_FlxState.prototype,{
 			var i = _g++;
 			var opener = shift.openPrepDay[i];
 			if(i > 0) {
-				haxe_Log.trace("opener " + opener.name + " cant fit",{ fileName : "source/PlayState.hx", lineNumber : 700, className : "PlayState", methodName : "displayDay"});
+				haxe_Log.trace("opener " + opener.name + " cant fit",{ fileName : "source/PlayState.hx", lineNumber : 716, className : "PlayState", methodName : "displayDay"});
 				continue;
 			}
 			var text = new Text(paper.x + 10,paper.y + 600,0,"" + opener.name + " " + opener.inTime.split(" ")[0] + " - " + opener.outTime.split(" ")[0],32);
@@ -107384,7 +107392,7 @@ var lime_utils_AssetCache = function() {
 	this.audio = new haxe_ds_StringMap();
 	this.font = new haxe_ds_StringMap();
 	this.image = new haxe_ds_StringMap();
-	this.version = 949740;
+	this.version = 500082;
 };
 $hxClasses["lime.utils.AssetCache"] = lime_utils_AssetCache;
 lime_utils_AssetCache.__name__ = "lime.utils.AssetCache";
