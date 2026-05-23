@@ -6629,6 +6629,7 @@ var PlayState = function(csv,period,week,sales,labor,cleaning,goals) {
 	_g.h["Addison B"] = "Addy";
 	_g.h["Mikayla L"] = "Mikee";
 	_g.h["Lillian H"] = "Lillie";
+	_g.h["Annabelle K"] = "Sid";
 	this.nameFilter = _g;
 	this.daysCopy = [];
 	this.days = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
@@ -6755,7 +6756,7 @@ PlayState.prototype = $extend(flixel_FlxState.prototype,{
 					break;
 				}
 			} else {
-				haxe_Log.trace("Not using line 2...",{ fileName : "source/PlayState.hx", lineNumber : 272, className : "PlayState", methodName : "create"});
+				haxe_Log.trace("Not using line 2...",{ fileName : "source/PlayState.hx", lineNumber : 273, className : "PlayState", methodName : "create"});
 			}
 			var name = StringTools.replace(StringTools.replace(line1[1],"\"","")," ","") + " " + StringTools.replace(StringTools.replace(line1[0],"\"","")," ","");
 			var firstName = name.split(" ")[0];
@@ -6815,7 +6816,7 @@ PlayState.prototype = $extend(flixel_FlxState.prototype,{
 						outTimeSplit[0] = "" + (Std.parseInt(outTimeSplit[0]) + 12);
 					} else if(Std.parseInt(outTimeSplit[0]) < 3) {
 						outTimeSplit[0] = "" + (Std.parseInt(outTimeSplit[0]) + 24);
-						haxe_Log.trace("had to make outtime crazy style, its now " + outTimeSplit[0],{ fileName : "source/PlayState.hx", lineNumber : 346, className : "PlayState", methodName : "create"});
+						haxe_Log.trace("had to make outtime crazy style, its now " + outTimeSplit[0],{ fileName : "source/PlayState.hx", lineNumber : 347, className : "PlayState", methodName : "create"});
 					}
 					var outTimeMinutes = Std.parseInt(outTimeSplit[0]) * 60 + Std.parseInt(outTimeSplit[1]);
 					var morning = inTimeMinutes <= 840 && outTimeMinutes < 1320;
@@ -7037,7 +7038,7 @@ PlayState.prototype = $extend(flixel_FlxState.prototype,{
 				goalsText.set_size((goalsText._defaultFormat.size | 0) - 2);
 				goalsText.updateHitbox();
 			}
-			haxe_Log.trace("size is " + (goalsText._defaultFormat.size | 0),{ fileName : "source/PlayState.hx", lineNumber : 583, className : "PlayState", methodName : "displayDay"});
+			haxe_Log.trace("size is " + (goalsText._defaultFormat.size | 0),{ fileName : "source/PlayState.hx", lineNumber : 584, className : "PlayState", methodName : "displayDay"});
 			var highlight = new flixel_FlxSprite(goalsText.x,goalsText.y).makeGraphic(goalsText.get_width() | 0,goalsText.get_height() | 0,-1);
 			this.lineup.add(highlight);
 			this.lineup.add(goalsText);
@@ -7220,7 +7221,7 @@ PlayState.prototype = $extend(flixel_FlxState.prototype,{
 			var i = _g++;
 			var opener = shift.openPrepDay[i];
 			if(i > 0) {
-				haxe_Log.trace("opener " + opener.name + " cant fit",{ fileName : "source/PlayState.hx", lineNumber : 722, className : "PlayState", methodName : "displayDay"});
+				haxe_Log.trace("opener " + opener.name + " cant fit",{ fileName : "source/PlayState.hx", lineNumber : 723, className : "PlayState", methodName : "displayDay"});
 				continue;
 			}
 			var text = new Text(paper.x + 10,paper.y + 600,0,"" + opener.name + " " + opener.inTime.split(" ")[0] + " - " + opener.outTime.split(" ")[0],32);
@@ -107395,7 +107396,7 @@ var lime_utils_AssetCache = function() {
 	this.audio = new haxe_ds_StringMap();
 	this.font = new haxe_ds_StringMap();
 	this.image = new haxe_ds_StringMap();
-	this.version = 680357;
+	this.version = 243731;
 };
 $hxClasses["lime.utils.AssetCache"] = lime_utils_AssetCache;
 lime_utils_AssetCache.__name__ = "lime.utils.AssetCache";
